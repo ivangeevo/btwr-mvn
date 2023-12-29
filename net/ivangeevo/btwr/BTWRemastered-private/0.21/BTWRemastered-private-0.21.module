@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.ivangeevo.btwr",
+    "module": "BTWRemastered-private",
+    "version": "0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "BTWRemastered-private-0.21.jar",
+          "url": "BTWRemastered-private-0.21.jar",
+          "size": 4402908,
+          "sha512": "27fa3d510fcae0f9763646150ae3ac546d40613819a11583dc2f0b5ae66eddeae19bac6e51c9281d99df7478a73322a6fde4c6b7876bd5ab1b0dd142d11a2239",
+          "sha256": "e3084395eef6779131f3f870cdf938859aa683d0d6b172047f233cdf9ba34cda",
+          "sha1": "8c8125d5ed7734d1b99ca5283d9a6ce45365d4a0",
+          "md5": "a66a7982aad66682d01ef500a6dd3853"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.22"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.76.0+1.19.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "BTWRemastered-private-0.21.jar",
+          "url": "BTWRemastered-private-0.21.jar",
+          "size": 4402908,
+          "sha512": "27fa3d510fcae0f9763646150ae3ac546d40613819a11583dc2f0b5ae66eddeae19bac6e51c9281d99df7478a73322a6fde4c6b7876bd5ab1b0dd142d11a2239",
+          "sha256": "e3084395eef6779131f3f870cdf938859aa683d0d6b172047f233cdf9ba34cda",
+          "sha1": "8c8125d5ed7734d1b99ca5283d9a6ce45365d4a0",
+          "md5": "a66a7982aad66682d01ef500a6dd3853"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "BTWRemastered-private-0.21-sources.jar",
+          "url": "BTWRemastered-private-0.21-sources.jar",
+          "size": 4361325,
+          "sha512": "ea50f2eaa8b5b5d5d0db2fc43b275be748cacdbc67b190dc2556a2d5d847285c9f54ac6b3483dbab158de69cf4ac99f0b67931e70e38d2be3109a4c825d92a19",
+          "sha256": "ec8a5d21822796672fc98ea184fe218d579690650228a05a17613f8ee7825236",
+          "sha1": "a6bdcbcd8f28698965723b3d3364e085213321ba",
+          "md5": "2efdb7ef70dfaaaa914c724f45bec5da"
+        }
+      ]
+    }
+  ]
+}
